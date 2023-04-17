@@ -32,7 +32,7 @@ const rainConfetti = () => {
 
 const App = () => {
   useEffect(() => {
-    setTimeout(rainConfetti(), 500);
+    setTimeout(rainConfetti(), 1000);
   }, []);
 
   return (
